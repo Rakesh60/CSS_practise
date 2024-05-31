@@ -1,0 +1,30 @@
+body{
+    background-color:#d5e1ee;
+    font-family: sans-serif;
+    text-align: center;
+  
+
+}
+.card{
+    width:100% ;
+    max-width: 302px;
+    height: 470px;
+    padding-bottom: 3rem;
+    box-shadow: 0px 6px 17px 0px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    position:absolute;
+    margin:auto;
+    inset: 0;
+    border-radius:2rem;
+    padding: 1rem;
+    
+
+    
+}
+img{width: 100%;
+    border-radius:1rem;
+}
+h2{
+    color: #252D47;
+}
+p{color: hsl(220, 15%, 55%);}

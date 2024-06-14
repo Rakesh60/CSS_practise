@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    font-family: cursive;
+}
+
+.hastag-header{
+    padding: 4rem;
+    background-color:#065FD4 ;
+    background-image: url(./images/background.png);
+    
+    background-position-x: 100%;
+    background-position-y: -160px;
+  
+
+    color: white;
+    background-size: 260px;
+    background-repeat: no-repeat;
+}
+.hastag-header h2{
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+}
+.hastag-header span{
+    font-size: 2rem;
+}

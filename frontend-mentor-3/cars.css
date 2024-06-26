@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+.container {
+  color: white;
+  margin: 1rem;
+  font-family: "Lexend Deca", cursive;
+  font-weight: 400;
+  display: flex;
+  border-radius: 0.7rem;
+  overflow: hidden;
+}
+
+.card h2 {
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", cursive;
+
+  font-size: 2.5rem;
+  letter-spacing: 20;
+}
+.card p {
+  line-height: 1.75;
+}
+.card {
+  padding: 3rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.card a {
+  border: 1.75px solid white;
+  padding: 1rem 2em;
+  border-radius: 2rem;
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+.card1 {
+  background-color: #e28525;
+}
+.card2 {
+  background-color: #016972;
+}
+.card3 {
+  background-color: #00403f;
+}
+@media (width< 415px) {
+  .container {
+    display: inline-block;
+  }
+}
